@@ -1,0 +1,22 @@
+.swiper1 {
+  @apply w-full h-[550px] bg-black;
+  &__slide {
+    @apply overflow-y-hidden bg-center bg-no-repeat object-cover w-full h-full;
+    &_in {
+      @apply flex flex-col place-content-center items-center text-white w-full h-full bg-[rgba(0,0,0,0.5)];
+    }
+    &-title {
+      @apply text-4xl font-bold;
+    }
+    &-subtitle {
+      @apply mt-5 mb-5;
+    }
+    &-btn {
+      @apply bg-[#5ae647] border-[2px] border-solid border-[#45c234] pt-2 pb-2 pl-7 pr-7 rounded-2xl text-[17px];
+    }
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    @apply w-[30px] h-[30px] bg-white mt-0 rounded-full;
+  }
+}

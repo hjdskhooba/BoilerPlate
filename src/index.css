@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("./tilewind.css");
+@import url("./pages/Main.scss");
+@import url("./components/index.scss");
+
+* {
+  font-family: "Georgia", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 10px 20px;
+}

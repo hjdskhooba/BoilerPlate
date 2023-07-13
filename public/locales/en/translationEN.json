@@ -1,0 +1,18 @@
+{
+    "welcome": "Welcome to Aronia Pharm",
+    "links": {
+        "o": "About us",
+        "s": "Products",
+        "t": "Address",
+        "f": "Contacts"
+    },
+    "sections": {
+        "about": {
+            "title": "About us",
+            "desc": "Description"
+        },
+        "title": {
+            "title": "OcOO Aronia pharm"
+        }
+    }
+}
