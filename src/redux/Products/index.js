@@ -1,11 +1,12 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
+import baseUrl from "../../common/index";
 
 export const getProducts = createAsyncThunk(
   "products/getProducts",
   async () => {
     try {
-      const res = await axios("https://jsonplaceholder.typicode.com/products");
+      const res = await axios(baseUrl + "/products");
       return res.data;
     } catch (e) {
       console.error("Error: ", e);

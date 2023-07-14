@@ -1,4 +1,4 @@
-import Swiper1 from "../../components/Swipers/Swiper1";
+import Swiper1 from "../../components/UI/Swipers/Swiper1";
 
 const Show = () => {
     return (
